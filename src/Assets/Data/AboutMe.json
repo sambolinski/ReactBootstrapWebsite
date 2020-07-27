@@ -1,0 +1,21 @@
+{
+    "technicalSkills":[
+        {
+            "Languages":["C++", "Java", "Javascript", "Python", "Haskell"],
+            "Libraries": ["React", "OpenGL", "GLM", "Swing"],
+            "Tools": ["Visual Studio", "SQLite", "Visual Paradigm", "Netbeans", "GIT"]
+        }
+    ],
+    "qualifications":[
+        {
+            "Degree":[["Bsc Computer Science", "1st Class"]],
+            "ALevel": [["Computer Science", "A"], ["Physics", "B"], ["Maths", "B"]]
+        }
+    ],
+    "achievements":[
+        {
+            "achievements": ["3rd Place for Best Graphics in 3D Graphics Module","Outstanding Part 1 Student Award (Technical Stream) from City, University of London for 'achieving an exceptionally high overall mark across their first year in the department'"]
+             
+        }
+    ]
+}
