@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.02052e39.chunk.css",
+    "main.js": "/static/js/main.e4156af6.chunk.js",
+    "main.js.map": "/static/js/main.e4156af6.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f7850296.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f7850296.js.map",
+    "static/js/2.cb885632.chunk.js": "/static/js/2.cb885632.chunk.js",
+    "static/js/2.cb885632.chunk.js.map": "/static/js/2.cb885632.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ad71b02c338e367784014b4eb582ef9a.js": "/precache-manifest.ad71b02c338e367784014b4eb582ef9a.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.02052e39.chunk.css.map": "/static/css/main.02052e39.chunk.css.map",
+    "static/js/2.cb885632.chunk.js.LICENSE.txt": "/static/js/2.cb885632.chunk.js.LICENSE.txt",
+    "static/media/Mandelbrot.png": "/static/media/Mandelbrot.dfa66a10.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f7850296.js",
+    "static/js/2.cb885632.chunk.js",
+    "static/css/main.02052e39.chunk.css",
+    "static/js/main.e4156af6.chunk.js"
+  ]
+}
