@@ -26,3 +26,4 @@ This website is made with React and Bootstrap to showcase some of my projects.
 - The War of the Worlds
 - Scene Recreations
 - Miscellaneous
+
