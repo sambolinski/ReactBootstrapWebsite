@@ -9,6 +9,8 @@ import './Styling/Album.css'
 import ProjectPageContainer from './Components/Projects/ProjectPageContainer';
 import RenderPageContainer from './Components/Renders/RenderPageContainer';
 import ProjectData from "./Assets/Data/Projects.json"
+import IndividualProjectContainer from './Components/Projects/IndividualProjectContainer';
+import AboutContainer from './Components/About/AboutContainer';
 
 class App extends React.Component{
   constructor(props){
@@ -29,11 +31,14 @@ class App extends React.Component{
     return (
         <React.Fragment>
           <NavigationBar/>
-          <Jumbotron  message = {this.state.message}/>
+          <Jumbotron message = {this.state.message}/>
           <Layout>
             <Router>
               <Switch>
+                <Route exact path = "/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "/about/" render={(props) => <AboutContainer updateMessage={this.updateMessage} {...props} /> } />
                 <Route exact path = "/projects/" render={(props) => <ProjectPageContainer updateMessage={this.updateMessage} {...props} /> } />
+                <Route exact path = "/projects/:id" render={(props) => <IndividualProjectContainer updateMessage={this.updateMessage} {...props} /> } />
                 <Route exact path = "/renders/" render={(props) => <RenderPageContainer updateMessage={this.updateMessage} {...props} /> }/>
                 <Route exact path = "/renders/:id/" render={(props) => <RenderPageContainer updateMessage={this.updateMessage} {...props} /> } />
                 <Route component={ErrorPageContainer} />

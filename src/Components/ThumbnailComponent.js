@@ -35,6 +35,7 @@ class ThumbnailComponent extends React.Component{
         super(props);
     }
     render(){
+        console.log(this.props);
         return(            
             <Styles>
                 <div className="col-md-4">
@@ -44,9 +45,15 @@ class ThumbnailComponent extends React.Component{
                             <h6 className="card-text">{this.props.title}</h6>
                             <div className="d-flex justify-content-between align-items-center">
                                 {
-                                    this.props.isGallery == false &&
+                                    this.props.isGallery == 0 &&
                                     <div className="btn-group">
                                         <Link to={this.props.match.path+String(this.props.index)+"/"} onClick={() => this.props.updateData(String(this.props.index))}><button type="button" className="btn btn-sm btn-outline-secondary" >View</button></Link>
+                                    </div>
+                                }
+                                {
+                                    this.props.isGallery == 2 &&
+                                    <div className="btn-group">
+                                        <Link to={this.props.match.path+String(this.props.index)+"/"}><button type="button" className="btn btn-sm btn-outline-secondary" >View</button></Link>
                                     </div>
                                 }
                                 <small className="text-muted">{this.props.language}</small>

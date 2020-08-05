@@ -7,7 +7,8 @@
             "language": "C++",
             "video": "",
             "libraries": ["OpenGL", "GLFW", "GLM"],
-            "about": "This project was amde for my final year project at university. The goal was to create a 3D physics simulation which could be used to determine whether certain configurations of ship bulkheads are safer than others. Specifically, whether longitudinal bulkheads are safe to use on ships. The graphics are made using OpenGL."
+            "about": "This project was amde for my final year project at university. The goal was to create a 3D physics simulation which could be used to determine whether certain configurations of ship bulkheads are safer than others. Specifically, whether longitudinal bulkheads are safe to use on ships. The graphics are made using OpenGL.",
+            "github": "https://github.com/sambolinski/FloodingSimulator"
         },
         {
             "title": "OpenGL Racing Game",
@@ -16,7 +17,8 @@
             "language": "C++",
             "video": "",
             "libraries": ["OpenGL", "GLM"],
-            "about": "This project was coursework for my 3D Graphics OpenGL module in my third year. We had to create a racing game which includes multiple primitives, 3D model imports, programatically generated tracks, multiple lights as well as instanced rendering and post-processing."
+            "about": "This project was coursework for my 3D Graphics OpenGL module in my third year. We had to create a racing game which includes multiple primitives, 3D model imports, programatically generated tracks, multiple lights as well as instanced rendering and post-processing.",
+            "github": "https://github.com/sambolinski/FloodingSimulator"
         },
         {
             "title": "Pixel Mandelbrot",
@@ -25,7 +27,8 @@
             "language": "C++",
             "video": "",
             "libraries": ["OLCPixelGameEngine"],
-            "about": "This is a project made using the OCLPixelGameEngine by Javid which shows the mandelbrot set."
+            "about": "This is a project made using the OCLPixelGameEngine by Javid which shows the mandelbrot set.",
+            "github": ""
         },
         {
             "title": "Pixel Ray Marching",
@@ -34,7 +37,8 @@
             "language": "C++",
             "video": "",
             "libraries": ["OLCPixelGameEngine"],
-            "about": "This is a project made using the OCLPixelGameEngine by Javid which shows a pixel ray marching renderer."
+            "about": "This is a project made using the OCLPixelGameEngine by Javid which shows a pixel ray marching renderer.",
+            "github": ""
         },
         {
             "title": "Garage Management System",
@@ -43,7 +47,8 @@
             "language": "Java",
             "video": "",
             "libraries": ["Swing"],
-            "about": "This project was created for a team project in my second year of university. The software is a management system for a garage which includes features for users such as a receptionist and a mechanic. The receptionist can take jobs and the mechanic can work on the job. There are other featuers such as automatic invoice generation as well as automatic stock renewal. I did the main programming work for this project."
+            "about": "This project was created for a team project in my second year of university. The software is a management system for a garage which includes features for users such as a receptionist and a mechanic. The receptionist can take jobs and the mechanic can work on the job. There are other featuers such as automatic invoice generation as well as automatic stock renewal. I did the main programming work for this project.",
+            "github": "https://github.com/Nikolnp/GARITS"
         },
         {
             "title": "2D planetary Orbit Simulator",
@@ -52,7 +57,8 @@
             "language": "Java",
             "video": "",
             "libraries": ["Swing"],
-            "about": "The project was creating in the summer of 2018. I created a custom physics engine to simulate gravity. Planet data was recorded to try and get an accurate simulation"
+            "about": "The project was creating in the summer of 2018. I created a custom physics engine to simulate gravity. Planet data was recorded to try and get an accurate simulation",
+            "github": "https://github.com/sambolinski/2d-planetary-orbit-simulator"
         },
         {
             "title": "2D platformer game",
@@ -61,7 +67,8 @@
             "language": "Java",
             "video": "https://www.youtube.com/embed/3OV-glulMQ4",
             "libraries": ["JBox2D"],
-            "about": "This project was coursework for my Java course in my first year of university. It uses Java, Swing and JBox2D."
+            "about": "This project was coursework for my Java course in my first year of university. It uses Java, Swing and JBox2D.",
+            "github": "https://github.com/sambolinski/2d-platformer"
         },
         {
             "title": "2D Puzzle",
@@ -70,7 +77,8 @@
             "language": "Java",
             "video": "",
             "libraries": ["Swing"],
-            "about": "Recreation of a puzzle from 'Puzzle Agent 2' made in Java."
+            "about": "Recreation of a puzzle from 'Puzzle Agent 2' made in Java.",
+            "github": "https://github.com/sambolinski/Kings-Challenge"
         },
         {
             "title": "Map Simulation Test",
@@ -79,7 +87,8 @@
             "language": "Java",
             "video": "",
             "libraries": [],
-            "about": "A test of a historical political map from 800ad, the user can click on towns to change the map."
+            "about": "A test of a historical political map from 800ad, the user can click on towns to change the map.",
+            "github": ""
         },
         {
             "title": "Boolean Algebra Converter",
@@ -88,7 +97,8 @@
             "language": "Python",
             "video": "",
             "libraries": ["Tkinter"],
-            "about": "This project is my A-Level coursework. The user can input Boolean Algebra, the software can convert this to a truth table and/or a logic circuit."
+            "about": "This project is my A-Level coursework. The user can input Boolean Algebra, the software can convert this to a truth table and/or a logic circuit.",
+            "github": "https://github.com/sambolinski/boolean-algebra-converter"
         }
     ],
     "sandbox":[    

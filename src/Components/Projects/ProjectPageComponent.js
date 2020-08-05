@@ -36,7 +36,7 @@ class ProjectPageComponent extends React.Component{
                             {
                                 this.props.data.projects.map((value, index) => {
                                     return (                       
-                                        <ThumbnailContainer image={value.thumbnail} title={value.title} date={value.date} language={value.language}/>
+                                        <ThumbnailContainer image={value.thumbnail} title={value.title} date={value.date} language={value.language} isGallery={2} index = {index} {...this.props}/>
                                     );
                                 })
                             }

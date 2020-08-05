@@ -24,13 +24,13 @@ class RenderPageContainer extends React.Component{
                 return newValue;
             });
             this.setState({
-                isGallery: false
+                isGallery: 0
             });
             title = "Renders"
         }else{
             this.currentData = tempData[newValue][Object.keys(tempData[newValue])[0]];
             this.setState({
-                isGallery: true
+                isGallery: 1
             });
             title = [Object.keys(tempData[newValue])[0]][0]
         }
